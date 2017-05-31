@@ -53,7 +53,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'test-study'
+project = u'测试学习'
 copyright = u'2017, coolfish'
 author = u'coolfish'
 
