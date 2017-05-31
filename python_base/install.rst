@@ -2,6 +2,8 @@
 ======================================
 这一章节介绍一下怎么安装python相关环境
 
+-------------------
+
 安装Python
 --------------------------------------
 打开 `python官网下载地址 <https://www.python.org/downloads/>`_ ，在下方找到Python 2.7.13，然后 `点击 <https://www.python.org/downloads/release/python-2713/>`_ 打开，选择跟自己操作系统匹配的安装包，然后下载，
@@ -11,21 +13,25 @@
 .. figure:: /_static/python/install/img1.png
     :width: 12.0cm
 
+-------------------
+
 pip简介
 --------------------------------------
 pip是python自带的包管理器，安装完python后，即可拥有，pip常用命令如下::
 
-    pip install <包名> # 安装python包
-    pip uninstall <包名> # 删除python包
-    pip list # 查看安装的包
+    >>> pip install <包名> # 安装python包
+    >>> pip uninstall <包名> # 删除python包
+    >>> pip list # 查看安装的包
+
+
 
 pip下载python包是从https://pypi.python.org/下载的，pypi服务器在国外，因此国内访问可能速度会比较慢，但使用时可以指定国内源，也就是从国内的镜像服务器下载，如使用清华的源::
 
-    pip install -i  https://pypi.tuna.tsinghua.edu.cn/simple flask
+    >>> pip install -i  https://pypi.tuna.tsinghua.edu.cn/simple flask
 
 除了在命令行指定源外，也可以在本地配置，使用方法可以在网络上搜索一下
 
-
+-------------------
 
 安装ipython
 --------------------------------------
@@ -35,8 +41,8 @@ ipython是一个python的交互命令行工具，比python自带的增强了代�
 
 下载安装 `pyreadline <https://pypi.python.org/pypi/pyreadline>`_，而后执行::
 
-    >>pip install ipython
-    >>ipython
+    >>> pip install ipython
+    >>> ipython
     Python 2.7.13 (default, Apr 26 2017, 20:42:49)
     Type "copyright", "credits" or "license" for more information.
 
@@ -52,8 +58,8 @@ ipython是一个python的交互命令行工具，比python自带的增强了代�
 
 执行::
 
-    >>pip install ipython
-    >>ipython
+    >>> pip install ipython
+    >>> ipython
     Python 2.7.13 (default, Apr 26 2017, 20:42:49)
     Type "copyright", "credits" or "license" for more information.
 
@@ -64,6 +70,8 @@ ipython是一个python的交互命令行工具，比python自带的增强了代�
     object?   -> Details about 'object', use 'object??' for extra details.
 
     In [1]:
+
+-------------------
 
 安装pycharm
 --------------------------------------
