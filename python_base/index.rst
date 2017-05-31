@@ -6,3 +6,4 @@ python基础
    :caption: Contents:
 
    install.rst
+   数据类型和变量.rst
