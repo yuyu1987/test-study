@@ -20,6 +20,7 @@ pip简介
 pip是python自带的包管理器，安装完python后，即可拥有，pip常用命令如下::
 
     >>> pip install <包名> # 安装python包
+    >>> pip install -U <包名> # 更新包
     >>> pip uninstall <包名> # 删除python包
     >>> pip list # 查看安装的包
 
