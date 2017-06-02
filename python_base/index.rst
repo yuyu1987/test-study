@@ -5,5 +5,6 @@ python基础
    :maxdepth: 2
    :caption: Contents:
 
-   install.rst
+   安装.rst
    数据类型和变量.rst
+   运行python.rst
