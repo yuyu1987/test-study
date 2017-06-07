@@ -2,7 +2,6 @@ python基础
 ======================================
 
 .. toctree::
-   :numbered:
    
 
    安装.rst
@@ -10,3 +9,5 @@ python基础
    运行python.rst
    列表元组.rst
    字典.rst
+   字符串.rst
+   运算.rst
