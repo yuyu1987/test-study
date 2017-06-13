@@ -12,6 +12,7 @@
 
    python_base/index.rst
    interface/index.rst
+   jmeter/index.rst
    web/index.rst
    performance/index.rst
 

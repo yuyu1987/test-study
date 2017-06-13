@@ -1,0 +1,28 @@
+下载安装
+======================================
+下载地址为： http://jmeter.apache.org/download_jmeter.cgi
+
+Step1:下载
+--------------------------------------
+打开下载页面，找到 **apache-jmeter-3.2.zip** 如下图所示：
+
+.. image:: /_static/jmeter/install/img1.jpg
+  :width: 400 px
+
+点击下载，然后下压缩包解压（随便解压到哪一个目录都要以），解压后的目录大至如下::
+
+    apache-jmeter-3.2
+    ├── LICENSE
+    ├── NOTICE
+    ├── README.md
+    ├── bin/
+    ├── docs/
+    ├── extras/
+    ├── lib/
+    ├── licenses
+    └── printable_docs/
+
+
+Step2:运行
+--------------------------------------
+进行到 **apache-jmeter-3.2** 目录下，然后进入 **bin** 目录下
