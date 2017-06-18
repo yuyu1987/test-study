@@ -11,3 +11,7 @@ python基础
    字典.rst
    字符串.rst
    运算.rst
+   函数.rst
+   类.rst
+   模块.rst
+   包.rst
