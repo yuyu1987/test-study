@@ -1,2 +1,63 @@
 函数
 ======================================
+函数在python里是非常重要的，是一等公民，函数的定义和使用非常简单，但又有非常高级的用法，函数就像我们中学时学的函数 ``y = x * x`` ，有输入有输出
+
+定义一个函数
+--------------------------------------
+::
+
+    def calc(a, b):
+        return a + b
+    
+    total = calc(1, 2)
+    print(total)
+
+在这里我们定义了一个函数 ``calc`` ，用来计算两个数值的和，调用时直接写函数名，然后传入相应的参数，返回两个值的和，需要注意的是
+
+* 函数名命名规则和变量是一致的
+* 函数都有返回值，如果没有写return语句则返回None
+* 注意是怎么缩进的
+
+值传递和引用传递
+--------------------------------------
+给函数传参时，要注意值传递和引用传递，值传递就是只传值，函数里的操作不会修改原变量，引用传递时在函数里的操作会修改原变量，在python里，字典、列表、对象是引用传递，其它为值传递，下面我们看一个值传递的例子 ::
+
+    def test_value(v):
+        v = 2
+
+    value = 1
+    test_value(value)
+    print(value)
+
+输入仍为1，也就是说在函数里对变量的值修改，并没有影响到传的参数，下面再看一个引用传递的例子 ::
+
+    def test_ref(v):
+        v['a'] = 'test_ref'
+
+    value = {'a': 1}
+    test_ref(value)
+    print(value)
+
+输出结果为 ``{'a': 'test_ref'}`` ，大家可以观察一下
+
+默认参数
+--------------------------------------
+有时候定义一个函数，有很多参数，但并不想每次都给所有参数传值，比如下面一个函数 ::
+
+    def make_order(order_num, order_from, order_to, order_info):
+        print(order_num, order_from, order_to, order_info)
+
+使用的时候，需要传入4个参数，但其实大部分时候我们只需要传order_num这个参数，其它参数一般都不会变，这种情况下，我们就可以使用默认参数了 ::
+
+    ef make_order(order_num, order_from='shanghai', order_to='henan', order_info='some thing'):
+        print(order_num, order_from, order_to, order_info)
+
+    make_order(123123)
+    make_order(123123, order_info='i do not know')
+
+输入结果为 ::
+
+    (123123, 'shanghai', 'henan', 'some thing')
+    (123123, 'shanghai', 'henan', 'i do not know')
+    [Finished in 0.2s]
+
