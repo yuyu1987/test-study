@@ -61,3 +61,47 @@
     (123123, 'shanghai', 'henan', 'i do not know')
     [Finished in 0.2s]
 
+.. warning:: 需要注意的是，所有的默认值参数必须定义在位参后面
+
+
+函数返回值
+--------------------------------------
+使用return关键字返回函数结果，结果可以是任何python基础数据类型或者对象，如果不写return的话，则返回None，如下示例::
+
+    # coding=utf-8
+
+    # 反转输入的名字
+    def reverse_your_name(name):
+        return name[::-1]
+
+    my_name = 'yuyu'
+    print(reverse_your_name(my_name))
+
+结果为::
+
+    uyuy
+    [Finished in 0.2s]
+
+下面这个例子不指定返回值::
+
+    # coding=utf-8
+
+    def non_return():
+        pass
+
+    print(non_return())
+
+结果为::
+
+    None
+    [Finished in 0.2s]
+
+可变参数
+--------------------------------------
+
+递归函数
+--------------------------------------
+
+装饰器
+--------------------------------------
+

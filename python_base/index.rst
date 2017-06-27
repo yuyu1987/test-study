@@ -10,7 +10,8 @@ python基础
    列表元组.rst
    字典.rst
    字符串.rst
-   运算.rst
+   流程控制.rst
+   练习1.rst
    函数.rst
    类.rst
    模块.rst
