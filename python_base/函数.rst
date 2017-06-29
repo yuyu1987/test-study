@@ -219,4 +219,44 @@
 
 装饰器
 --------------------------------------
-装饰器其实很简单，就是高阶函数，把函数传给函数，再返回函数，也称包装器，听起来比较唬人，我们看个例子就明白了
+装饰器其实很简单，就是高阶函数，把函数传给函数，再返回函数，也称包装器，听起来比较唬人，我们看个例子就明白了::
+
+    def demo(a, b):
+        return a + b
+
+    def wrapper_demo(func):
+        def wrapper(*args):
+            print 'begin'
+            result  = func(*args)
+            print 'end'
+            return result
+        return wrapper
+
+    w = wrapper_demo(demo)
+    r = w(1, 2)
+    print r
+
+结果为::
+
+    begin
+    end
+    3
+    [Finished in 0.1s]
+
+理解了之后，我们再讲一种简单的解法，python里提供了一个 ``@`` 符号，用来简化使用::
+
+    def wrapper_demo(func):
+        def wrapper(*args):
+            print 'begin'
+            result  = func(*args)
+            print 'end'
+            return result
+        return wrapper
+
+    @wrapper_demo
+    def demo(a, b):
+        return a + b
+
+    print demo(1, 2)
+
+大家试一下，结果是一样的
