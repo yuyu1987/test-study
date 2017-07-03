@@ -12,8 +12,8 @@ python基础
    字符串.rst
    运算.rst
    流程控制.rst
-   练习1.rst
    函数.rst
    类.rst
    模块.rst
    包.rst
+   练习.rst
