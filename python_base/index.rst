@@ -14,6 +14,5 @@ python基础
    流程控制.rst
    函数.rst
    类.rst
-   模块.rst
-   包.rst
+   模块和包.rst
    练习.rst
