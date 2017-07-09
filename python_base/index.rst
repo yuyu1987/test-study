@@ -15,4 +15,5 @@ python基础
    函数.rst
    类.rst
    模块和包.rst
+   内建函数.rst
    练习.rst
