@@ -62,4 +62,3 @@ windows下执行jmeter.bat，linux下执行bash jmeter.sh（使用其它shell也
 **9. 查看结果**
 
 点击左栏的察看结果树和聚合报告查看测试结果
-
