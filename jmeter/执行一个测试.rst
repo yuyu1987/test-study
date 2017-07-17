@@ -22,7 +22,7 @@ windows下打开命令的提示符窗口，linux下打开shell
 windows下执行jmeter.bat，linux下执行bash jmeter.sh（使用其它shell也行），如下图所示:
 
 
-.. figure:: /_static/jmeter/Executing/1.jpg
+.. figure:: /_static/jmeter/Executing/executing1.jpg
     :width: 15.0cm
 
 **4. 保存测试计划**
@@ -32,31 +32,31 @@ windows下执行jmeter.bat，linux下执行bash jmeter.sh（使用其它shell也
 **5. 添加线程组**
 
 
-.. figure:: /_static/jmeter/Executing/2.jpg
+.. figure:: /_static/jmeter/Executing/executing2.jpg
     :width: 15.0cm
 
 **6. 添加HTTP请求**
 
 
-.. figure:: /_static/jmeter/Executing/3.jpg
+.. figure:: /_static/jmeter/Executing/executing3.jpg
     :width: 15.0cm
 
 添加好之后，输入如下配置:
 
 
-.. figure:: /_static/jmeter/Executing/4.jpg
+.. figure:: /_static/jmeter/Executing/executing4.jpg
     :width: 15.0cm
 
 **7. 添加监听器**
 
 
-.. figure:: /_static/jmeter/Executing/5.jpg
+.. figure:: /_static/jmeter/Executing/executing5.jpg
     :width: 15.0cm
 
 **8. 运行**
 
 
-.. figure:: /_static/jmeter/Executing/6.jpg
+.. figure:: /_static/jmeter/Executing/executing6.jpg
     :width: 15.0cm
 
 **9. 查看结果**
