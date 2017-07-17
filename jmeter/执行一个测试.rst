@@ -1,0 +1,56 @@
+执行测试
+======================================
+这一节，我们来执行一个Jmeter脚本，一般日常测试中，我们都是对单个接口或一组接口做测试，并不会去测页面上的表态资源，所以也不需要录制，所以我们后面都是自己添加sampler，录制相关可以查看官方文档
+
+操作步骤
+--------------------------------------
+
+**1. 打开命令行**
+
+windows下打开命令的提示符窗口，linux下打开shell
+
+**2. 进入到Jmeter的bin目录下**
+
+执行::
+
+    cd apache-jmeter-3.1
+    cd bin
+
+**3. 打开Jmeter**
+
+windows下执行jmeter.bat，linux下执行bash jmeter.sh（使用其它shell也行），如下图所示:
+
+.. figure:: /_static/jmeter/Executing/1.jpg
+    :width: 15.0cm
+
+**4. 保存测试计划**
+
+**5. 添加线程组**
+
+.. figure:: /_static/jmeter/Executing/2.jpg
+    :width: 15.0cm
+
+**6. 添加HTTP请求**
+
+.. figure:: /_static/jmeter/Executing/3.jpg
+    :width: 15.0cm
+
+添加好之后，输入如下配置:
+
+.. figure:: /_static/jmeter/Executing/4.jpg
+    :width: 15.0cm
+
+**7. 添加监听器**
+
+.. figure:: /_static/jmeter/Executing/5.jpg
+    :width: 15.0cm
+
+**8. 运行**
+
+.. figure:: /_static/jmeter/Executing/6.jpg
+    :width: 15.0cm
+
+**9. 查看结果**
+
+点击左栏的察看结果树和聚合报告查看测试结果
+
