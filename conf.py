@@ -112,7 +112,7 @@ htmlhelp_basename = 'test-studydoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_elements = {
+# latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
     # 'papersize': 'letterpaper',
@@ -128,7 +128,7 @@ latex_elements = {
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
-}
+# }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
@@ -188,12 +188,11 @@ epub_exclude_files = ['search.html']
 intersphinx_mapping = {'https://docs.python.org/': None}
 
 
-latex_elements={# The paper size ('letterpaper' or 'a4paper').
-'papersize':'a4paper',# The font size ('10pt', '11pt' or '12pt').
-'pointsize':'12pt','classoptions':',oneside','babel':'',#必須
-'inputenc':'',#必須
-'utf8extra':'',#必須
-# Additional stuff for the LaTeX preamble.
+latex_elements={
+'papersize':'a4paper',
+'pointsize':'12pt','classoptions':',oneside','babel':'',
+'inputenc':'',
+'utf8extra':'',
 'preamble': r"""
 \usepackage{xeCJK}
 \usepackage{indentfirst}
@@ -204,4 +203,5 @@ latex_elements={# The paper size ('letterpaper' or 'a4paper').
 \setCJKfamilyfont{sf}{WenQuanYi Micro Hei}
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
-"""}
+"""
+}
