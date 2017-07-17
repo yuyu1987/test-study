@@ -27,6 +27,8 @@ windows下执行jmeter.bat，linux下执行bash jmeter.sh（使用其它shell也
 
 **4. 保存测试计划**
 
+使用快捷键 ``ctrl+s`` 保存
+
 **5. 添加线程组**
 
 
